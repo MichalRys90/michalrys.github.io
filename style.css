@@ -1,0 +1,133 @@
+body {
+	background-color: #404040;
+	font-family: "Lato", sans-serif;
+}
+
+#container {
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#menu {
+	background-color: #303030;
+	color: white;
+	margin-top: 50px;
+	font-size: 44px;
+	letter-spacing: 3px;
+	font-weight: 900;
+}
+
+.option {
+	float: left;
+	min-width: 50px;
+	height: 25px;
+	font-size: 18px;
+	padding: 20px;
+}
+
+#cart {
+	display: none;
+	font-size: 18px;
+	height: 25px;
+	padding: 10px;
+	border-bottom: 2px dotted #555555;
+}
+
+#nbp {
+	display: none;
+	font-size: 18px;
+	height: 25px;
+	padding: 10px;
+	border-bottom: 2px dotted #555555;
+}
+
+#library {
+	display: none;
+	font-size: 18px;
+	height: 25px;
+	padding: 10px;
+	border-bottom: 2px dotted #555555;
+}
+
+#kontakt1 {
+	display: block;
+}
+
+#photo {
+    text-align: center;
+	padding: 20px;
+}
+
+#nazwa {
+	text-align: center;
+	font-size: 50px;
+	color: white;
+	margin-bottom: 20px;
+}
+
+#sidebar {
+	float: left;
+	width: 148px;
+	min-height: 620px;
+	padding: 20px;
+	background-color: lightgray;
+	text-align: center;
+	font-size: 18px;
+	border-right: 2px dotted #666666;
+}
+
+#content {
+	float: left;
+	padding: 40px;
+	width: 730px;
+	background-color: #dedede;
+	min-height: 580px;
+	text-align: justify;
+}
+
+#footer {
+	clear: both;
+	color: white;
+	padding: 20px;
+	text-align: center;
+	font-size: 18px;
+}
+
+.option1 {
+	font-size: 18px;
+	height: 25px;
+	padding: 10px;
+	border-bottom: 2px dotted #444444;
+}
+
+.option1:hover {
+	cursor: pointer;
+	background-color: #ffffff;
+}
+
+.option:hover {
+	cursor: pointer;
+	background-color: #000000;
+}
+
+.project:hover {
+	cursor: pointer;
+	background-color: #777777;
+}
+
+.project {
+	background-color: #969696;
+	opacity: 0.8;
+}
+
+.click {
+  width: 200px;
+}
+.click1 {
+  width: 193px;
+}
+
+#postnbp {
+	margin-left: 250px;
+}
