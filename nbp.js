@@ -87,7 +87,7 @@ response.json().then(data => {
 }
 
 async function getByDate(date) {
-  const response = await fetch("http://localhost:8080/v1/nbp" + "/getByDate?date=" + date);
+  const response = await fetch(API_NBP_SORTNAME + "/getByDate?date=" + date);
   nbps = await response.json();
    for (n of nbps) {
 	  text = text + "ID - " + n.id + "   Name -   " + n.name + "   Posting Date -   " + n.postingDate + "  USD cost -   " + n.costUsd + "  PLN cost   " + n.costPln + "<br>";
