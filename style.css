@@ -131,3 +131,92 @@ body {
 #postnbp {
 	margin-left: 250px;
 }
+
+#reader {
+	margin-left: 250px;
+}
+
+ul {
+	display: flex;
+    flex-wrap: wrap;
+	text-justify: none;
+}
+
+li {
+	width: 25%;
+    box-sizing: border-box;
+	margin: 10px 0 5% 5%;
+	background: #FA8072;
+	text-align: center;
+	height: 90%;
+}
+
+li input {
+	width: 96%;
+	color: red;
+	background: #FFD700;
+	font-size: 75%;
+}
+
+#showrent {
+	margin-left: 3px;
+}
+
+#showHowManyFree {
+	margin-left: 3px;
+}
+
+#addBook {
+	margin-left: 250px;
+}
+
+.log {
+	margin-left: 250px;
+	background-color: #F0E68C;
+	color: #800000;
+}
+
+#logon {
+	margin-left: 304px;
+	background-color: #F0E68C;
+	color: #800000;
+}	
+
+#create {
+	margin-left: 280px;
+	background-color: #FF4500;
+	color: #4B0082;	
+}
+
+#crac {
+	margin-left: 275px;
+	background-color: #FF4500;
+	color: #4B0082;	
+}	
+
+#tempor {
+	margin-left: 265px;
+	color: #4B0082;	
+}
+
+.restaurant {
+	float: left;
+	min-width: 50px;
+	height: 25px;
+	font-size: 18px;
+	padding: 20px;
+	color: #20213D;
+	background-color: #E5D719;
+}
+
+#content pizzeria {
+	background-color: #FF3704;
+	width: 730px;
+	height: 50px;
+	color: #20213D;
+}
+
+.restaurant:hover {
+	cursor: pointer;
+	background-color: #D4C608;
+}
