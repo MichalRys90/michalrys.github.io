@@ -1,4 +1,4 @@
-var CART_API = "http://localhost:8080/v1";
+var CART_API = "https://ecommercee-54hf.onrender.com/v1";
 var text = "";
 var textKonto = "<input type='text' id = usna class = 'log' placeholder = 'Username'><br><input type='text' id = fina class = 'log' placeholder = 'First name'><br><input type='text' id=lana class = 'log' placeholder = 'Last name'><br><input type='text' id=pass1 class = 'log' placeholder = 'Password'><input type='text' id=pass2 class = 'log' placeholder = 'Repeat password'><br><button id='crac' class='creacou'> Create Acoount! </button>";
 var temp = "<p id='tempor'><br><br><br><br><br>The account has been created</p>";
