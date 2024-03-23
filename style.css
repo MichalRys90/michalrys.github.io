@@ -206,10 +206,8 @@ li input {
 	font-size: 18px;
 	padding: 20px;
 	color: #20213D;
-	background-color: #E5D719;
 }
 
 .restaurant:hover {
 	cursor: pointer;
-	background-color: #D4C608;
 }
