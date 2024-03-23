@@ -87,8 +87,6 @@ cart.addEventListener("click", function() {
 		token = responseData;
         con.innerHTML = pizzeria;
 
-		const container = document.querySelector('#content');
-		container.style.backgroundColor = '#E15252';
 		
     } catch (error) {
         console.error('Wystąpił problem z operacją fetch:', error.message);
