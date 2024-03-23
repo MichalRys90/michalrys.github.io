@@ -209,13 +209,6 @@ li input {
 	background-color: #E5D719;
 }
 
-#content pizzeria {
-	background-color: #FF3704;
-	width: 730px;
-	height: 50px;
-	color: #20213D;
-}
-
 .restaurant:hover {
 	cursor: pointer;
 	background-color: #D4C608;
