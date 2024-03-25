@@ -112,7 +112,7 @@ cart.addEventListener("click", function() {
 				}, "2000");
 				setTimeout(() => {
 					cartIdd(userId);
-				}, "3000");
+				}, "4000");
 		}
 	});
 	
