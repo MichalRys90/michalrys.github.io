@@ -1,4 +1,5 @@
 var LIBRARY_API = "https://library-zyxt.onrender.com";
+//var LIBRARY_API = "http://localhost:8080/";
 var allBooks;
 var title;
 const table1 = [];
@@ -205,10 +206,10 @@ async function getAllHiresForUser(id) {
 	}
 		
 	    async function ret(li) {
-			const response2 = await fetch(LIBRARY_API + "/hire/return?hireId=" + li, {
+			const response = await fetch(LIBRARY_API + "/hire/return?hireId=" + li, {
 				method: 'PUT'
 				});
-}
+		}
 		
 	document.body.addEventListener("click", function(e) {
 		if(e.target.id == "showrent") {

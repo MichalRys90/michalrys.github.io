@@ -44,13 +44,13 @@ o1.addEventListener("click",function(){
 	kontakt1.style.display = "block";
 });
 
-o.addEventListener("click",function(){ 
-	con.innerHTML = ja;
-});
+//o.addEventListener("click",function(){ 
+//	con.innerHTML = ja;
+//});
 
-strona.addEventListener("click",function(){ 
-	con.innerHTML = stronaGlowna;
-});
+//strona.addEventListener("click",function(){ 
+//	con.innerHTML = stronaGlowna;
+//});
 
 strona1.addEventListener("click",function(){ 
 	con.innerHTML = stronaGlowna;
@@ -67,17 +67,17 @@ strona1.addEventListener("click",function(){
 	kontakt1.style.display = "block";
 });
 
-kontakt.addEventListener("click",function(){ 
-	con.innerHTML = dane;
-});
+//kontakt.addEventListener("click",function(){ 
+//	con.innerHTML = dane;
+//});
 
 kontakt1.addEventListener("click",function(){ 
 	con.innerHTML = dane;
 });
 
-projekty.addEventListener("click",function(){ 
-	con.innerHTML = projek;
-});
+//projekty.addEventListener("click",function(){ 
+//	con.innerHTML = projek;
+//});
 
 //nbp.addEventListener("click",function(){ 
 //	con.innerHTML = ja;
@@ -112,3 +112,4 @@ projekty1.addEventListener("click",function(e){
 		kontakt1.style.display = "none";
 	}
 });
+

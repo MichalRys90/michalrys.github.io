@@ -1,4 +1,5 @@
 //var API_NBP_SORTNAME = "https://b32cc1be-6932-4ae5-9066-8955a434a4b3-00-3gqi336hb2y7f.worf.replit.dev/v1/nbp";
+//var API_NBP_SORTNAME = "http://localhost:8080/v1/nbp";
 var API_NBP_SORTNAME = "https://nbp-simple-poject-1.onrender.com/v1/nbp";
 var request = new Request(API_NBP_SORTNAME);
 var myList = document.querySelector("u1");
