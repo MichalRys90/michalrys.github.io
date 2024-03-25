@@ -109,10 +109,10 @@ cart.addEventListener("click", function() {
 				Login(userna, pass);
 				setTimeout(() => {
 					id(userna);
-				}, "1000");
+				}, "2000");
 				setTimeout(() => {
 					cartIdd(userId);
-				}, "1500");
+				}, "3000");
 		}
 	});
 	
