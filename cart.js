@@ -101,20 +101,15 @@ cart.addEventListener("click", function() {
 }
 
 
-	document.body.addEventListener("click", function(e) {
-	
-		if(e.target.id == "logon") {
-			    var userna = login.value;
-			    var pass = passto.value;
-				Login(userna, pass);
-				setTimeout(() => {
-					id(userna);
-				}, "2000");
-				setTimeout(() => {
-					cartIdd(userId);
-				}, "4000");
-		}
-	});
+document.body.addEventListener("click", async function(e) {
+    if (e.target.id == "logon") {
+        var userna = login.value;
+        var pass = passto.value;
+        await Login(userna, pass);
+        await id(userna);
+        await cartIdd(userId);
+    }
+});
 	
 async function getUserId(username) {
     try {
