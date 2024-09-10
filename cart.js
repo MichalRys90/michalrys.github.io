@@ -383,23 +383,17 @@ document.body.addEventListener("click", function(e) {
 
 async function showCart() {
 	console.log(cartId);
-	if (isLoading) return;
-    isLoading = true;
-   // try {
+    try {
         
-     //   const cartItems = document.getElementById("cart-items");
-       // if (cartItems) {
-         //   cartItems.remove();
-        //}
-	//} catch (error) {
-      //  console.error('Problem z cart-items', error);
-        //throw error;
-	//}
-		if (document.getElementById("cart-items")) {
-			isLoading = false;
-			return;
-    }
-		try { 
+        const cartItems = document.getElementById("cart-items");
+        if (cartItems) {
+            cartItems.remove();
+        }
+	} catch (error) {
+        console.error('Problem z cart-items', error);
+        throw error;
+	}
+		
         const response = await fetch(CART_API + "/carts/cartItem/getCart/"  + cartId, {
             method: 'GET', 
             headers: {
@@ -464,7 +458,7 @@ async function showCart() {
 		itemDiv.appendChild(totalPriceText);
 
 		cartDiv.appendChild(itemDiv);
-	}	
+	} 
 
         var totalCostText = document.createElement("p");
         totalCostText.textContent = "Koszt całkowity = " + suma;
@@ -511,12 +505,6 @@ async function showCart() {
 
         var kosz = document.getElementById("kosz");
         kosz.insertAdjacentElement("afterend", cartDiv);
-		    } catch (error) {
-        console.error('Problem z cart-items', error);
-			throw error;
-			} finally {
-        isLoading = false; // Zresetuj flagę po zakończeniu ładowania, niezależnie od wyniku
-		}
     } 
 
 async function decreaseQuantity(event) {
