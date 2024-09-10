@@ -399,7 +399,7 @@ async function showCart() {
 			isLoading = false;
 			return;
     }
-	
+		try { 
         const response = await fetch(CART_API + "/carts/cartItem/getCart/"  + cartId, {
             method: 'GET', 
             headers: {
@@ -511,6 +511,12 @@ async function showCart() {
 
         var kosz = document.getElementById("kosz");
         kosz.insertAdjacentElement("afterend", cartDiv);
+		    } catch (error) {
+        console.error('Problem z cart-items', error);
+			throw error;
+			} finally {
+        isLoading = false; // Zresetuj flagę po zakończeniu ładowania, niezależnie od wyniku
+		}
     } 
 
 async function decreaseQuantity(event) {
