@@ -11,6 +11,7 @@ var pizze = "<div id='pe' class='pizz'><img class='pizze' src='zdjecia/Margherit
 var token;
 var cartId;
 var userId;
+let isLoading = false;
 
 cart.addEventListener("click", function() {
 	con.innerHTML = cartText;
@@ -382,6 +383,8 @@ document.body.addEventListener("click", function(e) {
 
 async function showCart() {
 	console.log(cartId);
+	if (isLoading) return;
+    isLoading = true;
    // try {
         
      //   const cartItems = document.getElementById("cart-items");
@@ -393,7 +396,8 @@ async function showCart() {
         //throw error;
 	//}
 		if (document.getElementById("cart-items")) {
-			return; // Jeśli koszyk już istnieje, zakończ funkcję
+			isLoading = false;
+			return;
     }
 	
         const response = await fetch(CART_API + "/carts/cartItem/getCart/"  + cartId, {
