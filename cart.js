@@ -382,17 +382,20 @@ document.body.addEventListener("click", function(e) {
 
 async function showCart() {
 	console.log(cartId);
-    try {
+   // try {
         
-        const cartItems = document.getElementById("cart-items");
-        if (cartItems) {
-            cartItems.remove();
-        }
-	} catch (error) {
-        console.error('Problem z cart-items', error);
-        throw error;
-	}
-		
+     //   const cartItems = document.getElementById("cart-items");
+       // if (cartItems) {
+         //   cartItems.remove();
+        //}
+	//} catch (error) {
+      //  console.error('Problem z cart-items', error);
+        //throw error;
+	//}
+		if (document.getElementById("cart-items")) {
+			return; // Jeśli koszyk już istnieje, zakończ funkcję
+    }
+	
         const response = await fetch(CART_API + "/carts/cartItem/getCart/"  + cartId, {
             method: 'GET', 
             headers: {
