@@ -235,7 +235,7 @@ async function getUserId(username) {
 		
 document.body.addEventListener("click", function(e) {
     if (e.target.id == "button1") {
-        addProductToCart(34);
+        addProductToCart(10);
         const tex = document.getElementById('count');
         if (tex) { 
             console.log(tex);
@@ -249,7 +249,7 @@ document.body.addEventListener("click", function(e) {
 
 document.body.addEventListener("click", function(e) {
     if (e.target.id == "button2") {
-        addProductToCart(35);
+        addProductToCart(11);
         const tex = document.getElementById('count');
         if (tex) { 
             console.log(tex);
@@ -263,7 +263,7 @@ document.body.addEventListener("click", function(e) {
 
 document.body.addEventListener("click", function(e) {
     if (e.target.id == "button3") {
-        addProductToCart(36);
+        addProductToCart(12);
         const tex = document.getElementById('count');
         if (tex) { 
             console.log(tex);
@@ -277,7 +277,7 @@ document.body.addEventListener("click", function(e) {
 
 document.body.addEventListener("click", function(e) {
     if (e.target.id == "button4") {
-        addProductToCart(37);
+        addProductToCart(13);
         const tex = document.getElementById('count');
         if (tex) { 
             console.log(tex);
@@ -291,7 +291,7 @@ document.body.addEventListener("click", function(e) {
 
 document.body.addEventListener("click", function(e) {
     if (e.target.id == "button5") {
-        addProductToCart(38);
+        addProductToCart(14);
         const tex = document.getElementById('count');
         if (tex) { 
             console.log(tex);
@@ -305,7 +305,7 @@ document.body.addEventListener("click", function(e) {
 
 document.body.addEventListener("click", function(e) {
     if (e.target.id == "button6") {
-        addProductToCart(39);
+        addProductToCart(15);
         const tex = document.getElementById('count');
         if (tex) { 
             console.log(tex);
@@ -319,7 +319,7 @@ document.body.addEventListener("click", function(e) {
 
 document.body.addEventListener("click", function(e) {
     if (e.target.id == "button7") {
-        addProductToCart(40);
+        addProductToCart(16);
         const tex = document.getElementById('count');
         if (tex) { 
             console.log(tex);
@@ -333,7 +333,7 @@ document.body.addEventListener("click", function(e) {
 
 document.body.addEventListener("click", function(e) {
     if (e.target.id == "button8") {
-        addProductToCart(41);
+        addProductToCart(17);
         const tex = document.getElementById('count');
         if (tex) { 
             console.log(tex);
@@ -347,7 +347,7 @@ document.body.addEventListener("click", function(e) {
 
 document.body.addEventListener("click", function(e) {
     if (e.target.id == "button9") {
-        addProductToCart(42);
+        addProductToCart(18);
         const tex = document.getElementById('count');
         if (tex) { 
             console.log(tex);
@@ -361,7 +361,7 @@ document.body.addEventListener("click", function(e) {
 
 document.body.addEventListener("click", function(e) {
     if (e.target.id == "button10") {
-        addProductToCart(43);
+        addProductToCart(19);
         const tex = document.getElementById('count');
         if (tex) { 
             console.log(tex);
